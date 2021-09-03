@@ -1,6 +1,6 @@
 {
   "name": "pokedownloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App to download pokemons info from https://pokeapi.co",
   "main": "app.js",
   "scripts": {

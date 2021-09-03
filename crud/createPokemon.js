@@ -19,8 +19,10 @@ async function createNewPokemonInDB(id, name, height, weight, frontImg, backImg,
     'name': name,
     'height': height,
     'weight': weight,
-    'frontImg': frontImg,
-    'backImg': backImg,
+    'photos': {
+      'front': frontImg,
+      'back': backImg
+    },
     'stats': stats,
   });
 
