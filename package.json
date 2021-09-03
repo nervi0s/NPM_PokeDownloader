@@ -1,0 +1,23 @@
+{
+  "name": "pokedownloader",
+  "version": "1.0.0",
+  "description": "App to download pokemons info from https://pokeapi.co",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Nervi0s",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nervi0s/NPM_PokeDownloader.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "mongoose": "^6.0.4"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
